@@ -1,0 +1,60 @@
+.banner_image{
+    width:100%;
+    mask-image:linear-gradient(to right, transparent, black 70%);
+    -webkit-mask-image:linear-gradient(to right, transparent, black 70%);
+}
+.hero{
+    position: relative;
+}
+.hero_title{
+    position: absolute;
+    width: 100%;
+    padding-left:6%;
+    bottom: 0;
+}
+.title_image{
+    width:90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.hero_title p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom:20px ;
+}
+.hero_btn{
+    display: flex;
+    gap:10px;
+    margin-bottom: 50px;
+}
+.hero_btn .btn img{
+    width: 25px;
+}
+.hero_btn .btn{
+    outline: 0;
+    border: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap:10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+}
+.hero_btn .btn.dark_btn{
+    color: white;
+    background: #6d6d6eb3;
+}
+.hero_btn .btn:hover{
+    background: #ffffffbf;
+    transition: 0.3s;
+}
+.hero_btn .btn.dark_btn:hover{
+    background: #6d6d6e66;
+    transition: 0.3s;
+}
+.more-cards{
+    padding-left:6%;
+}
